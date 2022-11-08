@@ -38,7 +38,7 @@ Data is broadly classified into `Structured` and `Unstructured`
 - Video Processing
 
 ### Types of Unstructured Data Analysis
-- Text Analysis
+- Text Analysis [Link text Here](https://link-url-here.org)
 - Audio Analysis
 - Image Analysis
 - Video Analysis
