@@ -1,4 +1,4 @@
-# Natural-Language-Processing
+# Natural Language Processing (NLP)
 This Repository contains my personal notes on NLP collected from various sources
 
 
