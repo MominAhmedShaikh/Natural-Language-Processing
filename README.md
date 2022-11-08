@@ -1,6 +1,9 @@
 # Natural Language Processing (NLP)
 This Repository contains my personal notes on NLP collected from various sources
 
+NLP is a field of Computer Science and Artificial Intelligence that gives machine an ability to understand human language better and to assist in language related tasks.
+
+
 
 
 Data is broadly classified into `Structured` and `Unstructured`
@@ -29,6 +32,8 @@ Data is broadly classified into `Structured` and `Unstructured`
 
 ### Application
 - Search Engine
+- Auto Complete feature
+- Language Translation
 - Customer Relationship management systems
 - Email filtres
 - Product suggestion analysis
@@ -36,9 +41,16 @@ Data is broadly classified into `Structured` and `Unstructured`
 - Social media analytics
 - Chat bots
 - Video Processing
+- Voice Assistant
 
 ### Types of Unstructured Data Analysis
-- Text Analysis ([Follow Here](https://github.com/MominAhmedShaikh/Natural-Language-Processing/tree/main/Text%20Classification))
+- Text Analysis [[Follow Here](https://github.com/MominAhmedShaikh/Natural-Language-Processing/tree/main/Text%20Classification)]
 - Audio Analysis
 - Image Analysis
 - Video Analysis
+
+#### Roles Offered After NLP
+- Data Scientist (specialized in NLP)
+- NLP engineer
+- NLP researcher
+
