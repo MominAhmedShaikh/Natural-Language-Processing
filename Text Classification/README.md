@@ -14,7 +14,17 @@
 - Relationship Identification
 
 #### Steps :point_down:
--  
+
+- `Load` Document or Corpus
+- `Lower Case` all the Terms (Words) as Machine will not to able to differentiate between Apple and apple and it will take it as a seperate terms.
+- `Check for` :point_down: (Remove if any)
+  - Numbers
+  - Punctuation marks
+  - Stopwords 
+- `Document Term Matrix (DTM)`
+  - Initiate CountVectorizer Object and Fit Transform Document or Corpus
+- Calculate `Sparcity`
+  - 1 
 
 #### Glossary
 - **Document :** Each line of text in the source is loaded document in the corpus. (kinda :wink: Statement)
