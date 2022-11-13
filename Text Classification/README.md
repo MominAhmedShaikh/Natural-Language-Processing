@@ -24,13 +24,13 @@
 - `Document Term Matrix (DTM)`
   - Also called Bag of words.
   - Perform DTM on :point_down:
-  - CountVectorizer
+  - **CountVectorizer**
        - Initiate CountVectorizer Object and Fit Transform Document or Corpus
        - *Drawbacks* 
          - Count of words irrespective of importance.
          - Just gives counts of words w.r.t a Document
 
-  - TF-IDF (term frequency-inverse document frequency)
+  - **TF-IDF (term frequency-inverse document frequency)**
      - It takes into account not just the occurence of a term in a document but in the entire corpus.
      - *Formula*
      - <img src = 'https://miro.medium.com/max/816/1*1pTLnoOPJKKcKIcRi3q0WA.jpeg' width="275" height="100"/>
