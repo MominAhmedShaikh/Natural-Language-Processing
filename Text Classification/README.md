@@ -43,7 +43,7 @@
        - `tri-gram` - Initiate TF-IDF Vectorizer object and fit_transform on column, but select ngram_range (3,4) [min -3 words , max - 4 words]
   
 - Calculate `Sparcity`
-  - High Sparcity :arrow_up: :infinity: :arrow_down: Less words frquency 
+  - High Sparcity :arrow_up: :infinity: :arrow_down: Less words frequency 
 
 #### Glossary
 - **Document :** Each line of text in the source is loaded document in the corpus. (kinda :wink: Statement)
