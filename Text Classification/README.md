@@ -8,7 +8,7 @@
 #### What Text Analysis includes
 - Summarization
 - Feature Extraction
-- Sentiment Analysis
+- Sentiment Analysis [[Follow Here](https://github.com/MominAhmedShaikh/Natural-Language-Processing/tree/main/Text%20Classification/Sentiment%20Analysis)]
 - Document Classification
 - Topic Modelling
 - Relationship Identification
