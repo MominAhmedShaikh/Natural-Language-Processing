@@ -19,3 +19,6 @@
 ### Why it is important?
 - Large amount of unstructured text available in the form of `Email, Chat, Articles, Documents, etc.`
 - Helps companies to `extract important information` and to `automate` the entire process without any manual intervention. 
+
+### Sentiment Analysis Using Various Methods
+- Sentiment Analysis Using VADER [[Follow Here](https://github.com/MominAhmedShaikh/Natural-Language-Processing/tree/main/Text%20Classification/Sentiment%20Analysis/Sentiment%20Analysis%20Using%20VADER)]
