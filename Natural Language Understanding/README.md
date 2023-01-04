@@ -61,4 +61,9 @@ After tokenization and removing stop words, we would be left with the following 
 |"The cat sat on the mat."|	1|	1	|1|	0|	0|
 |"The cat chased the mouse."|1	|0	|0	|1	|1|
 
+
+<p align="center"> 
+<img src="https://github.com/MominAhmedShaikh/Natural-Language-Processing/blob/main/Natural%20Language%20Understanding/BOW.png" alt="Sentiment Analysis gif" height="600px">
+</p>
+
 Bag of words is a simple and efficient way to represent text data, but it ignores the order of words and any context they may have. Other approaches, such as n-grams or word embeddings, may be used to capture more contextual information.
