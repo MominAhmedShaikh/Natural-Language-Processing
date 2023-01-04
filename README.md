@@ -8,6 +8,7 @@ NLP is a field of Computer Science and Artificial Intelligence that gives machin
 
 Data is broadly classified into `Structured` and `Unstructured`
 
+Learn about [Natural Language Understanding](https://github.com/MominAhmedShaikh/Natural-Language-Processing/tree/main/Natural%20Language%20Understanding)
 
 
 | Structured | Unstructured   |
