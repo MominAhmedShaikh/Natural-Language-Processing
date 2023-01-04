@@ -42,6 +42,8 @@ Data is broadly classified into `Structured` and `Unstructured`
 - Chat bots
 - Video Processing
 - Voice Assistant
+- Speech recognition
+- Named Entity Recognition
 
 ### Types of Unstructured Data Analysis
 - Text Analysis [[Follow Here](https://github.com/MominAhmedShaikh/Natural-Language-Processing/tree/main/Text%20Classification)]
@@ -54,3 +56,8 @@ Data is broadly classified into `Structured` and `Unstructured`
 - NLP engineer
 - NLP researcher
 
+### Libraries to perform NLP
+- NLTK
+- Spacy
+- Genmim
+- TextBlob
