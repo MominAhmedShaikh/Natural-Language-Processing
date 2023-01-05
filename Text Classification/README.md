@@ -40,13 +40,29 @@
      - It takes into account not just the occurence of a term in a document but in the entire corpus.
      - *Formula*
      - <img src = 'https://miro.medium.com/max/816/1*1pTLnoOPJKKcKIcRi3q0WA.jpeg' width="275" height="100"/>
-     - Types :point_down:
+  - **N-grams** - Sequence of N Number of Words
+  - Types 👇
        - `uni-gram` 
          - Initiate TF-IDF Vectorizer object and fit_transform on column.
          - Does not provide context on which the words are being used.
          - Example : If `fire` is considered as single word then it will not provide enough information, but if  `stick` is added to `fire` i.e. `fire stick` or `fire tv` or `fire hd`, it is providing some information about a product.
        - `bi-gram` - Initiate TF-IDF Vectorizer object and fit_transform on column, but select ngram_range (2,2) [min - 2 words , max - 2 words] 
        - `tri-gram` - Initiate TF-IDF Vectorizer object and fit_transform on column, but select ngram_range (3,4) [min -3 words , max - 4 words]
+  - N-gram model - Predict occurance of N (word) based on N-1 (word)
+       - Using Probability:
+          - Find probability of word `you` after `Thank` will be given as 👇
+              - `P(You | Thank) = P(# of times Thank you occurs)/P(# of time thank occurs)` 
+  - Uses of N-grams
+       - Feature generation for algorithms like NB,SVM,etc.
+       - Creating auto-correct,auto-complete,speech recognition, etc.
+  - Generating N-gram using NLTK
+       - ```python3
+             from nltk.util import ngrams
+             sent = 'My Fight was delayed for an hour'
+             n = 1 #2 - bigram , 3 - trigram
+             unigrams = ngram(sentence.split(),n)
+             for item in unigrams:
+                print(item)
   
 - Calculate `Sparcity`
   - High Sparcity :arrow_up: :infinity: :arrow_down: Less words frequency 
