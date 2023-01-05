@@ -37,6 +37,8 @@
          - Just gives counts of words w.r.t a Document
 
   - **TF-IDF (term frequency-inverse document frequency)**
+     - TF (Term frquence) - No of times term <i>t</i> occurs inside a document / Total No. of Terms inside docment
+     - IDF (Inverse Document Frquency) - Corresponds to proportion of document that contains that term.
      - It takes into account not just the occurence of a term in a document but in the entire corpus.
      - *Formula*
      - <img src = 'https://miro.medium.com/max/816/1*1pTLnoOPJKKcKIcRi3q0WA.jpeg' width="275" height="100"/>
