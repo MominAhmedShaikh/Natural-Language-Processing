@@ -37,6 +37,7 @@
          - Just gives counts of words w.r.t a Document
 
   - **TF-IDF (term frequency-inverse document frequency)**
+     -  Commonality within a document measured by TF is balanced by rarity between documents measured by IDF. The resulting TF-IDF score reflects the importance of a term for a document in the corpus
      - TF (Term frquence) - No of times term <i>t</i> occurs inside a document / Total No. of Terms inside docment
      - IDF (Inverse Document Frquency) - Corresponds to proportion of document that contains that term.
      - It takes into account not just the occurence of a term in a document but in the entire corpus.
