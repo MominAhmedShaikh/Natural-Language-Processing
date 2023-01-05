@@ -63,9 +63,13 @@
              unigrams = ngram(sentence.split(),n)
              for item in unigrams:
                 print(item)
-  
-- Calculate `Sparcity`
-  - High Sparcity :arrow_up: :infinity: :arrow_down: Less words frequency 
+  <div style="width: 300px; margin: auto">
+  <img src="https://devopedia.org/images/article/219/7356.1569499094.png" align='center' alt="Description of ngram" width="700">
+</div>
+
+
+  - Calculate `Sparcity`
+       - High Sparcity :arrow_up: :infinity: :arrow_down: Less words frequency 
   
   
   
