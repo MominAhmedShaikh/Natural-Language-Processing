@@ -21,7 +21,13 @@
   - Numbers
   - Punctuation marks
   - Stopwords 
-- `Document Term Matrix (DTM)`
+- `Document Term Matrix (DTM)` - Describes the frequency of the terms that occur in a collection of documents.
+  - **Need For DTM** - Representing text as a numerical structure is a common initial point for text mining, analytics such as search and ranking, creating taxonomies, categorization, document similarity, and text-based machine learning.
+  
+  <div style="width: 500px; margin: auto">
+  <img src="https://www.mzes.uni-mannheim.de/socialsciencedatalab/article/advancing-text-mining/figures/dfm.png" align='center' alt="Description of image" width="700">
+</div>
+
   - Also called Bag of words.
   - Perform DTM on :point_down:
   - **CountVectorizer**
@@ -44,6 +50,22 @@
   
 - Calculate `Sparcity`
   - High Sparcity :arrow_up: :infinity: :arrow_down: Less words frequency 
+  
+  
+  
+#### Feature Engineering on Textual Data
+- ML Algorhithms expects numerical input for processes like Text or Doc classification.
+- Various ways FE works on Textual Data as follows:
+  - Check Number of Words in a Text
+    - ```python3 
+          df['num_words'] = df['text_col'].apply(lambda x : len(str(x).split()))
+  - Check Number of Unique words in a Text
+    - ```python3
+          df['uniq_words'] = df['text_col'].apply(lambda x : len(set(str(x).split())))
+  - Check Number of characters in a Text
+    - ```python3
+          df['num_char'] = df['text_col'].apply(lambda x : len((str(x)))
+  
 
 #### Glossary
 - **Document :** Each line of text in the source is loaded document in the corpus. (kinda :wink: Statement)
