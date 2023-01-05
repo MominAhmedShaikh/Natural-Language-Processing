@@ -63,6 +63,13 @@
              unigrams = ngram(sentence.split(),n)
              for item in unigrams:
                 print(item)
+       - ```python3
+              def generate_ngram(text,ngram=1):
+                  words = [word for word in text.split(' ') if word not in set(stopwords.words('english'))]
+                  temp  = zip(*[words[i:]] for i in range(0,ngram))
+                  ans = [" ".join(ngram) for ngram in temp]
+                  return ans
+                  
   <div style="width: 300px; margin: auto">
   <img src="https://devopedia.org/images/article/219/7356.1569499094.png" align='center' alt="Description of ngram" width="700">
 </div>
