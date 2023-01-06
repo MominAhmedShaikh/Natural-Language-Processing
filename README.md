@@ -45,6 +45,7 @@ Learn about [Natural Language Understanding](https://github.com/MominAhmedShaikh
 - Voice Assistant
 - Speech recognition
 - Named Entity Recognition
+- Topic Modeling [[Follow Here]]()
 
 ### Types of Unstructured Data Analysis
 - Text Analysis [[Follow Here](https://github.com/MominAhmedShaikh/Natural-Language-Processing/tree/main/Text%20Classification)]
