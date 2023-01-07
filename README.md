@@ -3,12 +3,14 @@ This Repository contains my personal notes on NLP collected from various sources
 
 NLP is a field of Computer Science and Artificial Intelligence that gives machine an ability to understand human language better and to assist in language related tasks.
 
+NLP is divided into two categories:
 
+- Natural Language Understanding (NLU) [[Follow Here]](https://github.com/MominAhmedShaikh/Natural-Language-Processing/tree/main/Natural%20Language%20Understanding)
+
+- Natural Language Generation (NLG)
 
 
 Data is broadly classified into `Structured` and `Unstructured`
-
-Learn about [Natural Language Understanding](https://github.com/MominAhmedShaikh/Natural-Language-Processing/tree/main/Natural%20Language%20Understanding)
 
 
 | Structured | Unstructured   |
@@ -43,7 +45,7 @@ Learn about [Natural Language Understanding](https://github.com/MominAhmedShaikh
 - Chat bots
 - Video Processing
 - Voice Assistant
-- Speech recognition
+- Speech recognition  [[Follow Here]](https://github.com/MominAhmedShaikh/Natural-Language-Processing/tree/main/Speech%20Recognition)
 - Named Entity Recognition
 - Topic Modeling [[Follow Here]](https://github.com/MominAhmedShaikh/Natural-Language-Processing/tree/main/Topic%20Modeling)
 
