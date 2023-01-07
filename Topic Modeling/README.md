@@ -40,3 +40,7 @@ Since the probability is highest for "orange," we would assign the word "orange"
 We repeat this process for each word in each document until all words have been assigned to a topic. This gives us the inferred topics for each document.
 
 Finally, we can use this information to summarize the main topics in the collection of documents. For example, we might find that "topic 1" is about smartphones and "topic 2" is about elections.
+
+- Topic Modeling using NLTK  :point_right: [View NoteBook](https://github.com/MominAhmedShaikh/Natural-Language-Processing/blob/main/Topic%20Modeling/Topic_Modeling.ipynb) or <a target="_blank" href="https://colab.research.google.com/github/MominAhmedShaikh/Natural-Language-Processing/blob/main/Topic%20Modeling/Topic_Modeling.ipynb">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
